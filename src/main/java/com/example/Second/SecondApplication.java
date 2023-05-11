@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SecondApplication {
 
 	public static void main(String[] args) {
+		Sysout.out.println("hello");
 		SpringApplication.run(SecondApplication.class, args);
 	}
 
